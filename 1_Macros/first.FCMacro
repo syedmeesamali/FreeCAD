@@ -1,0 +1,4 @@
+import Part
+myPart = FreeCAD.ActiveDocument.addObject("Part::Feature", "myPartName")
+cube = Part.makeBox(2, 2, 2)
+myPart.Shape = cube
